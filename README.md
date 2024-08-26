@@ -1,8 +1,17 @@
-# Event Management and Ticketing System
+# 🚀 Event Management and Ticketing System
 
 ## Overview
 
-This project is a scalable event management and ticketing system built using a microservices architecture. It allows users to create events, manage tickets, and receive notifications.
+Welcome to the **Event Management and Ticketing System**, a scalable solution built using a microservices architecture. This project allows users to create events, manage tickets, and receive notifications seamlessly.
+
+## 🛠️ Technology Stack
+
+This project is built using the **MERN Stack**:
+
+- **MongoDB**: A NoSQL database used for storing user, event, and ticket information.
+- **Express.js**: A web application framework for Node.js, used to build the backend services.
+- **React**: A JavaScript library for building the user interface of the frontend application.
+- **Node.js**: A JavaScript runtime used to build the backend services.
 
 ## Architecture
 
@@ -15,13 +24,13 @@ The system is divided into multiple microservices, each responsible for a specif
 
 ## Frontend
 
-The frontend is a single-page application built with [Your Chosen Framework] that interacts with the backend services via RESTful APIs.
+The frontend is a single-page application built with **React** that interacts with the backend services via RESTful APIs.
 
 ## Backend
 
 Each microservice is an independent application with its own database and API endpoints. The services communicate with each other over HTTP or messaging queues.
 
-## API Endpoints
+## 🌐 API Endpoints
 
 ### User Service
 
@@ -44,7 +53,7 @@ Each microservice is an independent application with its own database and API en
 
 - `POST /notifications/send`: Send a notification to a user.
 
-## Getting Started
+## 🚀 Getting Started
 
 1. **Clone the Repository:**
    ```bash
