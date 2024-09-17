@@ -1,25 +1,46 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-.env
-
 # Logs
 logs
 *.log
-logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Dependency directories
-**/node_modules
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
 
-# Build directories
-**/dist
-**/build
+# Environment variables
+.env
+
+# Build outputs
+build/
+dist/
+
+# Mac system files
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
 
 # IDEs
-.vscode/
 .idea/
+.vscode/
+*.sublime-workspace
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Coverage files
+coverage/
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Babel and ESLint cache
+.cache/
+.eslintcache
+
+# Others
+*.pid
