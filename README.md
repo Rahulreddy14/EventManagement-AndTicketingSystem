@@ -52,6 +52,7 @@ Each microservice is an independent application with its own database and API en
 ### Notification Service
 
 - `POST /notifications/send`: Send a notification to a user.
+- `GET /api/notifications/{userId}:` Retrieve all notifications for a specific user.
 
 ## 🚀 Getting Started
 
